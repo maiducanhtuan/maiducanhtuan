@@ -1,0 +1,47 @@
+body{
+    background: url('img/pexels-marctutorials-298692-1152359.jpg'); /*chèn ảnh vào body*/
+    background-size: cover; /*Căn chỉnh kích thước của ảnh nền*/
+    background-position-y: -100px; /*kéo ảnh nền lên xuống tùy ý*/
+    /*được sử dụng để kích hoạt Flexbox, một mô hình bố cục mạnh mẽ giúp dễ dàng 
+    sắp xếp và căn chỉnh các phần tử con bên trong một phần tử cha.*/
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+
+.login{
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 10px; /*bo góc của cái khung*/
+    text-align: center; /*cho mọi thứ nằm trong login để vào giữa*/
+}
+
+h2{
+    color: #868787;
+    font-family: sans-serif; /*Kiểu chữ*/
+}
+
+.login input{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px; /*Khoảng cách giữa 2 dòng input*/
+    border-radius: 10px;
+    /*Chỉnh cho 2 chữ username và password lùi vào trong*/
+    padding-left: 20px;
+}
+
+.login button{
+    width: 220px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #45a049;
+    color: white;
+}
+
+.login button:hover{
+    font-size: 15px;
+}

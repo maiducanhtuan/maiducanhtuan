@@ -1,0 +1,224 @@
+#container{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+header{
+    position: relative;
+}
+header .top-right{
+    width: 300px;
+    height: 40px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+header .top-right a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    font-size: small;
+    padding: 5px;
+}
+
+header .top-right a:hover{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold; /*Làm đậm chữ*/
+}
+
+header .company-info{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+header .company-info h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: white;
+    font-size: 35px;
+    border-bottom: 1px dotted red;
+    text-shadow: 0 0 5px orangered;
+}
+
+header .company-info h4{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: orangered;
+    letter-spacing: 3px;
+}
+
+header img {
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    font-variant: small-caps;
+    border-radius: 5px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    width: 20%;
+    margin: 0 10px;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold; /*Làm đậm chữ*/
+}
+
+
+article{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    /* box-shadow: 0 0 5px gray; */
+    float: left;
+    margin: 0px;
+    /* border-radius: 5px; */
+    text-align: center;
+    
+}
+
+aside{
+    width: 20%;
+    height: 500px;
+    background-color: white;
+    float: right;
+}
+
+footer{
+    border-top: 5px double orangered;
+    clear: both;
+    width: 100%;
+    height: 150px;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: orange;
+    border-radius: 5px;
+    line-height: 10px;
+}
+
+footer>p{
+    color: white;
+}
+
+
+
+
+
+ul.vmenu{
+ list-style-type: none; /*Loại bỏ đi dấu chấm đen*/
+ padding: 0;
+ margin: 5px;
+ box-shadow: 0 0 5px orangered;
+ border-radius: 5px;
+}
+
+ul.vmenu>li{
+    /*Tạo gạch dưới cho các thẻ li*/
+    border-bottom: 1px dotted orangered; /*doteted là dạng gạch nối*/
+}
+
+ul.vmenu>li>a{
+    text-decoration: none; /*Bỏ dấu gạch chân*/
+    line-height: 30px; /*Cho các dòng cách ra*/
+    font-variant: small-caps;
+    color: orangered;
+    padding-left: 50px; /*Khoảng cách khung đến các chữ là 20px*/
+    background: url('/img/bullet_red.png') no-repeat left center; /*no-repeat là không cho hình lặp đi lặp lại*/
+}
+
+ul.vmenu>li>a:hover{
+    text-decoration: underline;
+    color: red;
+    display: block; /*làm cho đổi màu hết luôn cả thẻ li*/
+    background: url('/img/bullet_yellow.png') no-repeat left center;
+    background-color: orange;
+}
+
+.col-25{
+    width: 24.5%;
+    float: left;
+    margin: 2px 2px;
+}
+
+.sanphamsale{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.sanphamsale>p{
+    font-variant: small-caps;
+    font-size: x-large;
+    text-shadow: 0 0 5px orangered;
+    color: red;
+}
+
+.prod {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 5px;
+}
+
+.prod>.name {
+    font-variant: small-caps;
+    color: orange;
+    text-align: center;
+    font-size: small;
+}
+
+.prod>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-size: 20px;
+    color: orange;
+    font-family: Impact;
+}
+
+.prod>.price del{
+    color: red;
+    font-size: small;
+}
+
+.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod>.newicon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.prod>.newicon>img{
+    border-top-right-radius: 10px;
+}
